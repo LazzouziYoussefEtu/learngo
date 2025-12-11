@@ -17,8 +17,9 @@ package main
 //
 // ---------------------------------------------------------
 
+// ?
+
 func main() {
-	// ?
-	func Hello(){println("Hello")}
-	Hello()
+	h := "Hello"
+	print(h)
 }
