@@ -24,7 +24,7 @@ func main() {
 // func bye() {
 // 	fmt.Println("Bye!")
 // }
-
+//
 // ***** EXPLANATION *****
 //
 // ERROR: "bye" function "redeclared"

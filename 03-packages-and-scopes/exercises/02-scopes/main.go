@@ -29,4 +29,8 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	// call the hello function here
+	hello()
+	bye()
+
 }

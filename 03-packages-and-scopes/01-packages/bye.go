@@ -13,3 +13,6 @@ import "fmt"
 func bye() {
 	fmt.Println("Bye!")
 }
+func foo() {
+	fmt.Println("Foo!")
+}

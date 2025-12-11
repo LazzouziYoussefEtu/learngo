@@ -14,12 +14,16 @@ import "fmt"
 // package scope
 const ok = true
 
+func isok() bool {
+	return ok // the variable ok is visible here
+}
+
 // package scope
 func main() { // block scope starts
 
 	var hello = "Hello"
 
 	// hello and ok are visible here
-	fmt.Println(hello, ok)
+	fmt.Println(hello, isok())
 
 } // block scope ends
